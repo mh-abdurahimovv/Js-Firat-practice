@@ -43,6 +43,7 @@ const a = prompt('Один из лучших учеников?', '');
 
 studentInformation.names[a] = b;
 studentInformation.names[c] = d;
+console.log(studentInformation)
 
 
 
