@@ -70,10 +70,37 @@ console.log(2 * 4 === 8)    //true
 
 
 // =========== Условие If ============ \\
+/*
+const num = 49
+if (num == 50) {
+    console.log('Error')
+} else if (num < 20) {
+    console.log('___')   
+} else (num == 49) {
+    console.log('OK')
+}
+*/
+// Тернарные условия пример
+// const num = 50
+// (num === 50) ? console.log('Ok!') : console.log('Error!')
+ 
+// ------------====-----------
+const num = 50;
 
-
-
-
+switch (num) {
+    case 49:
+        console.log('False');
+        break;
+    case 100:
+        console.log('False');
+        break;
+    case 50:
+        console.log('True!');
+        break;
+    default:
+        console.log('Not this time');
+        break;
+}
 
 
 

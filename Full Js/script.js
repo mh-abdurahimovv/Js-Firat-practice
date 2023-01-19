@@ -24,7 +24,7 @@ personalMovieDB.movies[c] = d;
 
 */
 
-
+/*
 
 const numberOfSudents = +prompt('Сколько у вас учеников было?', '');
 
@@ -53,6 +53,141 @@ studentInformation.stacks[lev1] = lev2;
 studentInformation.stacks[lev3] = lev4;
 
 console.log(studentInformation)
+
+*/const num = 50;
+
+switch (num) {
+   case 49:
+       console.log('False');
+       break;
+   case 100:
+       console.log('False');
+       break;
+   case 50:
+       console.log('True!');
+       break;
+   default:
+       console.log('Not this time');
+       break;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
