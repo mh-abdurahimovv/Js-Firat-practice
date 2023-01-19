@@ -31,8 +31,8 @@ const numberOfSudents = +prompt('Сколько у вас учеников бы�
 const studentInformation = {
    count: numberOfSudents,
    names: {},
-   heights: {},
-   stacks: [],
+   stacks: {},
+   heights: [],
    privat: true,
 };
 
@@ -43,9 +43,16 @@ const a = prompt('Один из лучших учеников?', '');
 
 studentInformation.names[a] = b;
 studentInformation.names[c] = d;
+
+const lev1 = prompt('Языки программирование который он знает?', '');
+      lev2 = prompt('Уровень его знания?', '');
+      lev3 = prompt('Языки программирование который он знает?', '');
+      lev4 = prompt('Уровень его знания?', '');
+
+studentInformation.stacks[lev1] = lev2;
+studentInformation.stacks[lev3] = lev4;
+
 console.log(studentInformation)
-
-
 
 
 
