@@ -54,22 +54,10 @@ studentInformation.stacks[lev3] = lev4;
 
 console.log(studentInformation)
 
-*/const num = 50;
+*/
 
-switch (num) {
-   case 49:
-       console.log('False');
-       break;
-   case 100:
-       console.log('False');
-       break;
-   case 50:
-       console.log('True!');
-       break;
-   default:
-       console.log('Not this time');
-       break;
-}
+
+
 
 
 
